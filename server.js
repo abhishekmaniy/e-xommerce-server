@@ -27,7 +27,6 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 app.use(cookieParser());
 dotenv.config()
-console.log(process.env.BASE_URL)
 
 app.use(
   cors({
